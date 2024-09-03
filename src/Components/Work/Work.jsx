@@ -6,10 +6,10 @@ function Work() {
   const videoRefs = useRef([]);
 
   const elems = [
-    { heading: "PixelsFlakes", subheading: "Architectural Marketing Agency", video: "src/assets/Work1.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/20d07e6f0c/pixelflakes-hero.jpg/m/1300x1620/filters:quality(90)" },
-    { heading: "Columbia Pictures", subheading: "Celebrating a Century of Cinema", video: "src/assets/Work2.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/540fb12941/columbia-pictures-thumbnail.jpg/m/1300x1620/filters:quality(90)" },
-    { heading: "Rino & Pille", subheading: "Effortless Chic Lifestyle", video: "src/assets/Work3.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/b66359da25/rino-pelle-hero.jpg/m/1300x1620/filters:quality(90)" },
-    { heading: "Aebele Interiors", subheading: "Luxurious Design Experience", video: "src/assets/Work4.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/3e8f8d08f7/aebele-interiors-hero.jpg/m/1300x1620/filters:quality(90)" },
+    { heading: "PixelsFlakes", subheading: "Architectural Marketing Agency", video: "/assets/Work1.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/20d07e6f0c/pixelflakes-hero.jpg/m/1300x1620/filters:quality(90)" },
+    { heading: "Columbia Pictures", subheading: "Celebrating a Century of Cinema", video: "/assets/Work2.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/540fb12941/columbia-pictures-thumbnail.jpg/m/1300x1620/filters:quality(90)" },
+    { heading: "Rino & Pille", subheading: "Effortless Chic Lifestyle", video: "/assets/Work3.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/b66359da25/rino-pelle-hero.jpg/m/1300x1620/filters:quality(90)" },
+    { heading: "Aebele Interiors", subheading: "Luxurious Design Experience", video: "/assets/Work4.mp4", image: "https://a.storyblok.com/f/133769/2400x2990/3e8f8d08f7/aebele-interiors-hero.jpg/m/1300x1620/filters:quality(90)" },
   ];
 
   useEffect(() => {
