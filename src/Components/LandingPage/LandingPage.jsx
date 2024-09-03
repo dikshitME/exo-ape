@@ -47,7 +47,7 @@ function LandingPage() {
         <>
             <div className="w-full relative  h-[155vh] sm:h-[250vh] ">
                 <div className="picture w-full h-full overflow-hidden">
-                    <img data-scroll data-scroll-speed="-1" className="w-full h-full object-cover" src="/assets/background.jpg" alt="Background" />
+                    <img data-scroll data-scroll-speed="-1" className="w-full h-full object-cover" src="assets/background.jpg" alt="Background" />
                 </div>
                 <div className="w-full absolute top-0 sm:top-[10%] sm:left-[15%] sm:max-w-xl">
                     <div className="text px-5 sm:px-0 py-5 sm:py-10">
