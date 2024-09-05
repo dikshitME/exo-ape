@@ -6,7 +6,6 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   publicDir: path.resolve(__dirname, 'public'),
-  base: '/exo-ape/',
   build: {
     rollupOptions: {
       input: path.resolve(__dirname, 'index.html')
